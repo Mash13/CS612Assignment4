@@ -92,7 +92,7 @@
 
             renderNormal: function () {
               return (
-                  <div className="commentContainer">
+                  <div>
                       <div className="commentText">{this.props.children}</div>
                       <button onClick={this.edit} id="buttonGreen" className="button-primary">Edit</button>
                       <button onClick={this.remove} id="buttonRed" className="button-danger">Remove</button>
@@ -102,7 +102,7 @@
 
             renderForm: function () {
               return (
-                  <div className="commentContainer">
+                  <div>
                       <textarea ref="newText" defaultValue={this.props.children}></textarea>
                       <button onClick={this.save} id="buttonBlue" className="button-success">Save</button>
                   </div>
