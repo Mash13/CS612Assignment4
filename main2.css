@@ -1,0 +1,66 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+html, body {
+background:#AFEEEE;
+}
+div {
+
+}
+h1 {
+  text-align: center;
+}
+h2 {
+  text-align: center;
+}
+textarea {
+  width: 80%;
+  height: 150px;
+}
+button {
+  padding 10px;
+  border-radius: 10px;
+  width: 70px;
+  height: 30px;
+}
+a:link {color: blue; text-decoration: none}
+a:visited {color: green}
+a:hover {color: lime}
+a:active {color: red}
+#headerCSS {
+  background:#ECDB54;
+  text-align: center;
+  padding: 20px;
+  color: teal;
+}
+#navigationCSS {
+  background:#AFEEEE;
+  float: right;
+  text-align: right;
+  width: 10%;
+  color: indigo;
+}
+#mainCSS {
+  background:#EC9787;
+  word-wrap: break-word;
+  float: left;
+  width: 90%;
+  color: purple;
+}
+#blogCSS {
+  border: 2px solid gray;
+}
+#footerCSS {
+  background-color: #efefef;
+  clear: both;
+}
+#buttonBlue {
+  background-color: #00BFFF
+}
+#buttonRed {
+  background-color: #FF0000
+}
+#buttonGreen {
+  background-color: #32CD32
+}
